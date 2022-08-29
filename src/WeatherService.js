@@ -1,4 +1,5 @@
-const API_KEY = "cf80b1fa43443289a1b21327c2c30711";
+//const API_KEY = "cf80b1fa43443289a1b21327c2c30711";
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 const createIconURL = (iconID) => {
     return `https://openweathermap.org/img/wn/${iconID}@2x.png`
