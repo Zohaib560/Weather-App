@@ -51,6 +51,10 @@
   background-color: var(--section-overlay);
 }
 
+.section__temperature {
+  margin-top: 10px;
+}
+
 .section__inputs>input {
   border: 0.8px solid white;
   border-radius: 0.4rem;
